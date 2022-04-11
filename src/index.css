@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contenedor {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+#pantalla1,
+#pantalla2,
+#pantalla3 {
+  width: 200px;
+  height: 100px;
+  font-size: 100px;
+  padding-bottom: 20px;
+  border: 2px black solid;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.main button {
+  margin-top: 10px;
+}
